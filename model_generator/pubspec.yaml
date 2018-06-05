@@ -1,0 +1,16 @@
+name: model_generator
+description: A starting point for Dart libraries or applications.
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: user <email@example.com>
+
+environment:
+  sdk: '>=2.0.0-dev.52.0 <2.0.0'
+
+dependencies:
+  source_gen:
+  build_runner:
+
+dev_dependencies:
+  test: ^0.12.30
+  build_test:

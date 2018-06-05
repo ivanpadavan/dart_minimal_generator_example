@@ -1,0 +1,13 @@
+name: model_generated_to
+description: desc
+version: 0.0.1
+author: stable|kernel <jobs@stablekernel.com>
+
+environment:
+  sdk: ">=2.0.0-dev <3.0.0"
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
+  model_generator:
+    path: ../model_generator
+  build_runner:

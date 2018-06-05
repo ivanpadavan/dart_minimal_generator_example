@@ -1,0 +1,8 @@
+builders:
+  model_generator:
+    target: ":model_generator"
+    import: "package:model_generator/builder.dart"
+    builder_factories: ["modelBuilder"]
+    build_extensions: {".dart": ["g.dart"]}
+    auto_apply: dependents
+    build_to: source
