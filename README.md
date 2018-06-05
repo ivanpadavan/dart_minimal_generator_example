@@ -7,7 +7,7 @@
 
 *model_generator* состоит из 
 - функции возвращающей LibraryBuilder
-- путь до этой функции в `build.yaml` (где найти полную схему этого файла?)
+- путь до этой функции в [build.yaml](https://github.com/dart-lang/build/blob/master/docs/build_yaml_format.md)
 - теста, который позволяет дебажить этот генератор
 
 
